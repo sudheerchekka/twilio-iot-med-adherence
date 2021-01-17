@@ -25,10 +25,10 @@ The goal of **Rx Tracker** is to
 * Twilio SMS
     * Configure Messsaging webhook URL for your Twilio phone number to <YOUR_AGENT_URL>/twilio
 * Airtable
-    * Follow the instructions in [Twilio Functions Readme file](Twilio%20Serverless/Functions/read.MD) to configure Twilio function to access associated Airtable 
+    * Follow the instructions in [Twilio Functions Readme file](twilio/Functions/read.MD) to configure Twilio function to access associated Airtable 
 * Twilio Flex
     * Set up new Flex instance (if needed) and follow the instructions in "Supporting Assets/ Documentation/ Links" section below to create Studio flow, Function, and Assets (for the Flex plugin)
-    * We configured "iFrame a webpage" option of "Panel2 Configurator" plugin in the Flex instance to display [Patient Dashboard](Twilio%20Serverless/Assets/patient_dashboard.html) page when an inbound task is selected by the agent.
+    * We configured "iFrame a webpage" option of "Panel2 Configurator" plugin in the Flex instance to display [Patient Dashboard](twilio/Assets/patient_dashboard.html) page when an inbound task is selected by the agent.
     * Configure PANEL 2 CONFIG OVERRIDES with https://thistle-aardvark-4642.twil.io/assets/ for "URL to show when task is selected" 
 * Dashboards [optional]
     * Prescription usage dashboard 
