@@ -49,13 +49,9 @@ The goal of **Rx Tracker** is to
 
 
 ### Supporting Assets/ Documentation/ Links
-* [Twilio Functions and Function Readme.md](Twilio%20Serverless/Functions)
-* [Twilio Studio Flows and Studio Readme.MD](Twilio%20Serverless/Studio)
-* [Twilio Assets and Asset Readme.md](Twilio%20Serverless/Assets)
+* [Twilio Functions and Function Readme.md](twilio/Functions)
+* [Twilio Studio Flows and Studio Readme.MD](twilio/Studio)
+* [Twilio Assets and Asset Readme.md](twilio/Assets)
 * [Getting Started with Twilio Flex](https://support.twilio.com/hc/en-us/articles/360010784193-Getting-Started-with-Twilio-Flex)
-* [How to enable Outbound Dialer on Flex](https://www.twilio.com/changelog/flex-outbound-dialing-and-native-dialpad-public-beta)
-* [AWS Dynamo DB](https://aws.amazon.com/dynamodb/getting-started/)
-* [Rockset Documentation](https://docs.rockset.com/)
-* [Apache Superset Documentation](https://superset.apache.org/docs/intro)
 * [Creating Plugins for Flex](https://support.twilio.com/hc/en-us/articles/360019473713-Creating-Plugins-for-Twilio-Flex)
 > ...
