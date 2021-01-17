@@ -1,0 +1,59 @@
+{
+  "description": "A New Flow",
+  "states": [
+    {
+      "name": "Trigger",
+      "type": "trigger",
+      "transitions": [
+        {
+          "event": "incomingMessage"
+        },
+        {
+          "event": "incomingCall"
+        },
+        {
+          "next": "function_1",
+          "event": "incomingRequest"
+        }
+      ],
+      "properties": {
+        "offset": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    {
+      "name": "function_1",
+      "type": "run-function",
+      "transitions": [
+        {
+          "event": "success"
+        },
+        {
+          "event": "fail"
+        }
+      ],
+      "properties": {
+        "service_sid": "ZS26cf97f03e713e585242cf7a1e76f37c",
+        "environment_sid": "ZE299f4b997fe788f2756cafe5d9fa20df",
+        "offset": {
+          "x": 260,
+          "y": 160
+        },
+        "function_sid": "ZH95086eeed4a2ebc2c4cd2613c4574ddf",
+        "parameters": [
+          {
+            "value": "{{contact.channel.address}}",
+            "key": "phone_number"
+          }
+        ],
+        "url": "https://eoc-service-team2-3498.twil.io/task_creation"
+      }
+    }
+  ],
+  "initial_state": "Trigger",
+  "flags": {
+    "allow_concurrent_calls": true
+  }
+}
